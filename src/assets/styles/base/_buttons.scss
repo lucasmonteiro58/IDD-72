@@ -1,0 +1,91 @@
+.btn {
+  @include flex-center;
+  transition: 0.3s;
+
+  &.btn {
+    &--borded {
+      background-color: white;
+      border: 5px solid $btn-border;
+      min-width: 75px;
+      min-height: 75px;
+      box-shadow: $bs-hard-mini;
+
+      &.rounded {
+        border-radius: 20px;
+      }
+
+      &.circle {
+        border-radius: 50%;
+      }
+
+      &.green {
+        background-color: $btn-green;
+        &:hover {
+          background-color: $btn-green-hover;
+        }
+      }
+
+      &:disabled,
+      &[disabled] {
+        background-color: white;
+      }
+    }
+    &--primary {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: $gap * 1.6 $gap * 3;
+      border-radius: $gap * 4;
+      background-color: $btn-green;
+      border: 8px solid white;
+      color: white;
+      font-weight: bold;
+      box-shadow: $bs-hard;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.875rem;
+
+      .btn-icon {
+        &.left {
+          margin-right: $gap * 2;
+        }
+        &.right {
+          margin-left: $gap * 2;
+        }
+      }
+
+      &.fixed-width {
+        padding: $gap * 2 0;
+      }
+
+      &:hover {
+        background-color: $btn-green-hover;
+      }
+      &:active {
+        background-color: $btn-green-active;
+      }
+
+      &:disabled,
+      &[disabled] {
+        background-color: $btn-green;
+      }
+    }
+    &--icon {
+      cursor: pointer;
+      background-color: transparent;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &:disabled,
+  &[disabled] {
+    opacity: 0.4;
+    cursor: initial;
+  }
+}
+
+.btn-icon {
+  .bi {
+    filter: brightness(120);
+  }
+}

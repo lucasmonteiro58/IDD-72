@@ -1,0 +1,69 @@
+body {
+  @include sprites($spritesheet-sprites);
+}
+
+.infos-top-layout {
+  .title-top {
+    @include font-neosans;
+    position: absolute;
+    top: 38px;
+    right: $gap * 2;
+    font-weight: bold;
+    font-size: 1.875rem;
+    color: $green-light;
+    background-color: white;
+    padding: 0 $gap;
+    border-radius: 20px;
+  }
+
+  .subtitle-top {
+    @include font-neosans-medium;
+    width: 472px;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 89px;
+    right: $gap * 2;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: $green-light;
+  }
+}
+
+// ---- class auxiliares
+
+.w170 {
+  width: 170px;
+}
+
+.w375 {
+  width: 375px;
+}
+
+.trans1 {
+  transform: scale(1.1);
+}
+.trans2 {
+  transform: scale(1.2);
+}
+.trans3 {
+  transform: scale(1.3);
+}
+.trans4 {
+  transform: scale(1.4);
+}
+.trans5 {
+  transform: scale(1.5);
+}
+.trans6 {
+  transform: scale(1.6);
+}
+.trans7 {
+  transform: scale(1.7);
+}
+.trans8 {
+  transform: scale(1.8);
+}
+.trans9 {
+  transform: scale(1.9);
+}

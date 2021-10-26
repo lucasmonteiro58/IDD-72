@@ -1,0 +1,163 @@
+/*******************
+ Box Sizing
+ *******************/
+html {
+  box-sizing: border-box;
+  user-select: none;
+  overflow: hidden;
+  background-color: #222;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/****************************
+ Generic Margins and Paddings
+ ****************************/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/*******************
+ Lists
+ *******************/
+ul {
+  list-style: none;
+}
+
+/*******************
+ Forms and buttons
+ *******************/
+input,
+textarea,
+select,
+button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* I usually expand input and textarea to full-width */
+input[type='text'],
+textarea {
+  width: 100%;
+}
+
+/* More friendly border */
+input,
+textarea,
+button {
+  border: none;
+}
+
+/* Some defaults for one-liner buttons */
+button {
+  border-radius: 0;
+  line-height: 1;
+  cursor: pointer;
+}
+
+button * {
+  pointer-events: none;
+}
+
+/***********************************
+ Easy responsive for media elements
+ ***********************************/
+svg,
+iframe,
+video,
+object,
+embed {
+  display: block;
+  max-width: 100%;
+}
+
+/*******************
+ Useful table styles
+ *******************/
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/*******************
+ The hidden attribute
+ *******************/
+[hidden] {
+  display: none !important;
+}
+
+/*******************
+ Noscript
+ *******************/
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+button:focus {
+  outline: 0;
+}
+
+@font-face {
+  font-family: NeoSans;
+  src: url('../fonts/NeoSansProRegular.otf');
+}
+
+@font-face {
+  font-family: NeoSansBold;
+  src: url('../fonts/NeoSansProBold.otf');
+}
+
+@font-face {
+  font-family: NeoSansBlack;
+  src: url('../fonts/NeoSansProBlack.otf');
+}
+
+@font-face {
+  font-family: NeoSansLight;
+  src: url('../fonts/NeoSansProLight.otf');
+}
+
+@font-face {
+  font-family: NeoSansMedium;
+  src: url('../fonts/NeoSansProMedium.otf');
+}
+
+@font-face {
+  font-family: Bitter;
+  src: url('../fonts/Bitter.ttf');
+}
+
+* {
+  font-family: NeoSans;
+  color: #505050;
+}
+
+.bi {
+  font-size: 2.5rem;
+}
+
+:root {
+  font-size: 16px;
+}
