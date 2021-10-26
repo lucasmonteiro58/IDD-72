@@ -131,7 +131,7 @@ export default {
 
     .creditos {
       position: absolute;
-      top: 40px;
+      bottom: 10px;
       left: -25px;
       writing-mode: vertical-lr;
       transform: rotate(180deg);

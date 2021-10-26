@@ -3,100 +3,80 @@ export const contents = [
     id: 0,
     delay: 0.1,
     visited: false,
-    icon: 'flag-dark',
-    image: 'im01',
-    font: 'Bandeira Ucrânia ',
-    creditos: 'Pixabay',
-    title: 'A questão da Crimeia',
-    top: '334px',
-    left: '1016px',
+    icon: 'ico-1',
+    image: 'image1',
+    font: '',
+    creditos: 'WIKIMEDIA COMMONS',
+    title: '',
+    top: '274px',
+    left: '1240px',
     legendaTop: '110px',
-    legendaLeft: '-30px',
+    legendaLeft: '-100px',
     text:
-      'Apesar de não reconhecida internacionalmente, a anexação da Crimeia, península situada ao sul da Ucrânia, pela Rússia foi legitimada por um referendo popular consultivo ocorrido em 2014. A Ucrânia sofreu, historicamente, uma grande influência russa e, por isso, parte da população nutre sentimentos de pertencimento, traduzidos, entre outros aspectos, pelo predomínio do uso idioma russo nessas porções do território. Além do confronto entre os dois governos envolvidos pelo domínio da Crimeia, em algumas situações os conflitos refletem-se em embates civis.'
-  },
-
-  {
-    id: 3,
-    delay: 0.4,
-    visited: false,
-    icon: 'flag-light',
-    font: 'Mapa da Rússia, com destaque na Chechênia',
-    creditos: 'Adaptado do Freepik',
-    image: 'im04',
-    title: 'Conflito Russo-Checheno',
-    top: '359px',
-    left: '1132px',
-    legendaTop: '78px',
-    legendaLeft: '14px',
-    text:
-      'A Chechênia é uma província russa com população majoritariamente muçulmana, e que luta pela independência em relação ao Estado Russo. Essa província se situa na região do Cáucaso e tem sua história marcada por interesses de dimensões política, econômica e estratégica. Incrustrada entre o mar Negro e Cáspio, nessa localidade ocorrem reservas de petróleo e gás natural.'
-  },
-
-  {
-    id: 4,
-    delay: 0.5,
-    visited: false,
-    icon: 'flag-light',
-    image: 'im05',
-    imgBig: 'img-big01',
-    title: 'Conflito na Caxemira',
-    font: 'Mapa Índia, Paquistão e China',
-    creditos: 'Wikimedia Commons',
-    top: '445px',
-    left: '1215px',
-    legendaTop: '110px',
-    legendaLeft: '-30px',
-    text:
-      'Esse conflito ocorre principalmente entre três países, Índia, Paquistão e China e é permeado por diferenças étnicas e disputas territoriais. <br/><br/> Índia e Paquistão têm interesse estratégico em relação aos recursos hídricos, já que a Caxemira abriga as nascentes do rio Ganges, principal rio da Índia e a nascente do rio Indo, o principal do Paquistão. <br/><br/>Além disso, os dois países possuem armas nucleares, o que provoca grande tensão mundial.'
-  },
-  {
-    id: 2,
-    delay: 0.3,
-    visited: false,
-    icon: 'flag-dark',
-    font: 'Bandeira Síria',
-    creditos: '',
-    image: 'im03',
-    title: 'Guerra Civil na Síria',
-    top: '409px',
-    left: '1086px',
-    legendaTop: '100px',
-    legendaLeft: '15px',
-    text:
-      'O conflito ocorre desde o início da década de 2010 como consequência dos protestos da Primavera Árabe, do não reconhecimento do governo sírio por parte da população e da truculência governamental na lida com os civis.<br/><br/>O conflito também é influenciado por interesses antagônicos de potências mundiais e tem gerado a destruição do país, mortes e uma grande quantidade de refugiados.'
+      'Começaremos nosso breve percurso para compreender elementos chave que integram o surgimento do fascismo na Itália (mas não só *alerta spoiler*) pela Rússia de 1917. Mas o que estava acontecendo na Rússia em outubro de 1917?<br/><br/><br/><br/><br/><br/><br/><br/>'
   },
   {
     id: 1,
     delay: 0.2,
     visited: false,
-    icon: 'flag-light',
-    font: 'Bandeiras Palestina e Israel',
-    creditos: 'Pixabay',
-    image: 'im02',
-    title: 'Conflito Árabe-Israelense',
-    top: '439px',
-    left: '1061px',
-    legendaTop: '115px',
-    legendaLeft: '-42px',
+    icon: 'ico-2',
+    image: 'image2',
+    font: '',
+    creditos: 'WIKIMEDIA COMMONS',
+    title: '',
+    top: '350px',
+    left: '1070px',
+    legendaTop: '110px',
+    legendaLeft: '-60px',
     text:
-      'Na Palestina e em Israel, no Oriente Médio, um dos principais focos de tensão é a disputa territorial entre israelenses, majoritariamente judeus, e palestinos de maioria muçulmana.<br/><br/> A fundação do Estado de Israel, em 1948, previa a divisão do território entre os dois povos, no entanto, com os anos, o governo israelense foi ocupando territórios destinados ao povo palestino, que reivindica a criação e reconhecimento de um Estado Palestino. <br/><br/>  Nesse contexto, ambos os envolvidos, vez ou outra, abusam do uso da violência, acirrando ainda mais os conflitos.'
+      'Uma revolução popular, protagonizada pelos operários e camponeses, a Revolução Russa teve como intuito derrubar o regime czarista e instituir uma República Socialista. O processo de lutas teve seu início em 1917 a partir de marchas promovidas pelos movimentos pelos direitos das mulheres, que reivindicavam melhores condições de trabalho, moradia e saúde para seus companheiros, filhos e para si mesmas. Os impactos da Revolução de Outubro reverberaram não somente nos países do continente europeu, mas mundo afora, gerando forte impacto na mentalidade das classes trabalhadoras no início do século XX.'
   },
   {
-    id: 5,
+    id: 2,
+    delay: 0.3,
     visited: false,
-    delay: '0.6s',
-    icon: 'flag-dark',
-    font:
-      'Mapa da península coreana com as bandeiras de Coreia do Norte e Coreia do Sul para representar os territórios',
-    creditos: 'Pixabay',
-    image: 'im06',
-    title: 'Guerra das Coreias',
-    top: '419px',
-    left: '1463px',
+    icon: 'ico-3',
+    image: 'image3',
+    font: '',
+    creditos: 'MATERIAL DIDÁTICO',
+    title: '',
+    top: '580px',
+    left: '1040px',
     legendaTop: '110px',
-    legendaLeft: '-30px',
+    legendaLeft: '-80px',
     text:
-      'Conflito que ocorre desde a Guerra Fria, foi resultado da disputa ideológica desse período e do interesse de potências como os Estados Unidos e, em primeiro momento da União Soviética, em segundo, da Rússia. <br/><br/> Mesmo após o fim da Guerra Fria, o conflito gera preocupação, pois tecnicamente as duas Coreias ainda estão em guerra. O Programa Nuclear <br/>norte-coreano também gera tensões entre a Coreia do Norte e os Estados Unidos.'
+      'Após o fim da Primeira Guerra Mundial (1914-1918), a Itália, apesar de ter saído vitoriosa, teve cerca de 670 mil mortos e quase 1 milhão de feridos. As províncias do nordeste do país estavam destruídas, havia falta de mão de obra, matérias-primas e capital para investimento. As condições de vida da população italiana eram extremamente precarizadas, e as revoltas e insatisfações se tornaram crescentes. Por influência da experiência russa e por insatisfação para com as promessas não cumpridas no pós-guerra, as organizações de operários e camponeses se tornaram cada vez mais fortes.'
+  },
+  {
+    id: 3,
+    delay: 0.4,
+    visited: false,
+    icon: 'ico-4',
+    image: 'image4',
+    font: '',
+    creditos: 'WIKIMEDIA COMMONS',
+    title: '',
+    top: '414px',
+    left: '920px',
+    legendaTop: '110px',
+    legendaLeft: '-60px',
+    text:
+      'Com solo fértil para ideias de supremacia nacionalista, ultranacionalismo, é fundado em 1919, na cidade de Milão, por veteranos da Primeira Guerra e antigos sindicalistas o Fasci Italiani di Combattimento, movimento político e paramilitar liderado pelo então jornalista Benito Mussolini. Esse movimento, inicialmente marginalizado, pregava o combate ao comunismo, à democracia liberal e às organizações operárias e socialistas.<br/><br/><br/><br/>'
+  },
+  {
+    id: 4,
+    delay: 0.5,
+    visited: false,
+    icon: 'ico-5',
+    image: 'image5',
+    font: '',
+    creditos: 'FUNDAÇÃO GETÚLIO VARGAS',
+    title: '',
+    top: '650px',
+    left: '680px',
+    legendaTop: '110px',
+    legendaLeft: '-50px',
+    text:
+      'No Brasil, os efeitos da Primeira Guerra também eram sentidos, mas havia também outros aspectos peculiares à realidade brasileira. Estávamos nos primeiros anos da Primeira República, conhecida também como República do Café com Leite. Nesse período a população brasileira enfrentava péssimas condições de moradia, trabalho e outros aspectos básicos como saúde e educação, e assim como em países como a Itália, os trabalhadores começaram a se organizar através das ideias da tão recente Revolução Russa. Em contraponto a esse movimentos dos trabalhadores, também se articulava os grupos Integralista, ideologia inspirada nos ideias do fascismo italiano, nacionalismo exacerbado, anticomunismo e militarismo.'
   }
 ]

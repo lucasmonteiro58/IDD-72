@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div class="infos-top-layout">
-      <div class="title-top">Alguns conflitos territoriais da atualidade</div>
+      <div class="title-top">A emergência dos totalitarismos</div>
       <div class="subtitle-top">
         Clique nos destaques no mapa para saber mais.
       </div>
