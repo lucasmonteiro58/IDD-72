@@ -9,6 +9,7 @@ import ImageFull from '@/components/layout/ImageFull.vue'
 import ZoomImage from '@/components/ZoomImage.vue'
 
 import PopUpOrientation from '@/components/PopUpOrientation.vue'
+import BootstrapIcon from '@/components/BootstrapIcon.vue'
 
 const Components = {
   install: (Vue) => {
@@ -22,6 +23,7 @@ const Components = {
     Vue.component('ZoomImage', ZoomImage)
     Vue.component('ImageFull', ImageFull)
     Vue.component('PopUpOrientation', PopUpOrientation)
+    Vue.component('BootstrapIcon', BootstrapIcon)
   }
 }
 

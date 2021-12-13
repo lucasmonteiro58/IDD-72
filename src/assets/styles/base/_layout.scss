@@ -41,7 +41,8 @@ body {
 }
 
 .trans1 {
-  transform: scale(1.1);
+  transform: scale(0.6);
+  font-size: 2.2rem !important;
 }
 .trans2 {
   transform: scale(1.2);
@@ -65,5 +66,17 @@ body {
   transform: scale(1.8);
 }
 .trans9 {
-  transform: scale(1.9);
+  transform: scale(1.1);
+}
+.trans15 {
+  transform: Scale(2.5);
+}
+
+.bi {
+  &.icon-check {
+    color: #09df92;
+  }
+  &.icon-x {
+    color: #ed2727;
+  }
 }
